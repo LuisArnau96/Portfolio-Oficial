@@ -75,7 +75,7 @@ function HeroMedia() {
         style={{ opacity: hasVideo && activeVideo === 'a' ? 1 : 0 }}
         autoPlay muted playsInline
       >
-        <source src="./hero.mp4" type="video/mp4" />
+        <source src={import.meta.env.VITE_VIDEO_URL || './hero.mp4'} type="video/mp4" />
       </video>
 
       {/* Video B — crossfade target */}
@@ -85,7 +85,7 @@ function HeroMedia() {
         style={{ opacity: hasVideo && activeVideo === 'b' ? 1 : 0 }}
         muted playsInline
       >
-        <source src="./hero.mp4" type="video/mp4" />
+        <source src={import.meta.env.VITE_VIDEO_URL || './hero.mp4'} type="video/mp4" />
       </video>
 
       {/* Overlay: gradient en todas las esquinas para textos + centro leve */}
