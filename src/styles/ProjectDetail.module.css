@@ -1,0 +1,334 @@
+.page {
+  min-height: 100vh;
+  background: var(--off-white);
+  color: var(--black);
+}
+
+/* ---- Header ---- */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  height: 56px;
+  background: rgba(242, 241, 238, 0.93);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.backLink {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-dark);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s;
+}
+.backLink:hover { color: var(--black); }
+
+/* ---- Content wrapper ---- */
+.content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ---- Title + subtitle ---- */
+.projectTitle {
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
+  color: var(--black);
+}
+
+.projectSubtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--gray-dark);
+  margin: 0 0 2rem;
+}
+
+/* ---- Cover image 16/9 ---- */
+.coverImg {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  margin-bottom: 2.5rem;
+  display: block;
+  object-fit: cover;
+  border: 1px solid var(--gray-light);
+}
+
+/* ---- Meta ---- */
+.meta {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.metaItem {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.metaLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray-mid);
+}
+
+.metaValue {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+/* ---- Tags ---- */
+.tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.tag {
+  background: var(--gray-light);
+  color: var(--black);
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+/* ---- Generic section block ---- */
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0 0 0.75rem;
+}
+
+.section p {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--gray-dark);
+  margin: 0;
+}
+
+/* ---- Objectives list ---- */
+.objectivesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.objectiveItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: var(--gray-dark);
+  line-height: 1.65;
+}
+
+.objCheck {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  background: var(--gray-light);
+  color: var(--black);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 800;
+  margin-top: 1px;
+}
+
+/* ---- Process grid ---- */
+.processGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.processStep {
+  background: var(--white);
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: var(--black);
+}
+
+.stepNum {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  border-radius: 50%;
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+/* ---- Gallery section (image with title above) ---- */
+.galSection {
+  margin-bottom: 2.5rem;
+}
+
+.galSection h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0 0 0.75rem;
+}
+
+.galSection p {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--gray-dark);
+  margin: 0 0 0.25rem;
+}
+
+/* ---- Inline section image (.si equivalent) ---- */
+.sectionImg {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--gray-light);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  display: block;
+}
+
+/* ---- Result callout ---- */
+.resultCallout {
+  background: var(--white);
+  border: 1px solid var(--gray-light);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.resultCallout h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0 0 0.6rem;
+}
+
+.resultCallout p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--gray-dark);
+  margin: 0;
+}
+
+/* ---- Prototype button ---- */
+.protoBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  padding: 13px 26px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font);
+  transition: opacity 0.2s ease;
+  margin: 0 auto 2.5rem;
+  width: fit-content;
+}
+.protoBtn:hover { opacity: 0.85; }
+
+/* ---- Reflection ---- */
+.reflection {
+  font-style: italic;
+  color: var(--gray-dark);
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+
+/* ---- Prev/Next navigation ---- */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--gray-light);
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.navBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font);
+  padding: 0;
+  color: var(--black);
+  transition: opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.navBtn:hover { opacity: 0.6; }
+
+.navText { display: flex; flex-direction: column; }
+.navRight { text-align: right; }
+
+.navLabel {
+  font-size: 0.72rem;
+  color: var(--gray-dark);
+  display: block;
+}
+
+.navName {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .content { padding: 1.5rem 1rem 3rem; }
+  .processGrid { grid-template-columns: 1fr; }
+}

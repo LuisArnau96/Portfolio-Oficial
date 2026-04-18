@@ -1,0 +1,241 @@
+.page {
+  min-height: 100vh;
+  background: var(--off-white);
+  color: var(--black);
+}
+
+/* ---- Header ---- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 36px;
+  background: var(--off-white);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.header.scrolled {
+  border-color: var(--gray-light);
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navLink {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: var(--black);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--black);
+  transition: width 0.3s var(--ease-out);
+}
+
+.navLink:hover::after { width: 100%; }
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.25s var(--ease-out);
+}
+
+.navLink:hover .arrow { transform: translateX(3px); }
+
+.langToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.langBtn {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--gray-mid);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  background: none;
+  border: none;
+  font-family: var(--font);
+  padding: 2px 0;
+}
+
+.langBtn:hover { color: var(--black); }
+.langBtnActive { color: var(--black) !important; }
+.langSep { color: var(--gray-light); font-size: 10px; }
+
+/* ---- Main content ---- */
+.content {
+  padding: 140px 36px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: clamp(56px, 9vw, 120px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+  color: var(--black);
+  margin-bottom: 40px;
+}
+
+/* ---- Filters ---- */
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.filterBtn {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 8px 18px;
+  border-radius: 100px;
+  border: 1.5px solid var(--gray-light);
+  color: var(--gray-dark);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font);
+}
+
+.filterBtn:hover {
+  border-color: var(--black);
+  color: var(--black);
+}
+
+.filterBtn.active {
+  background: var(--black);
+  border-color: var(--black);
+  color: var(--white);
+}
+
+/* ---- Project list ---- */
+.projectList {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Project row (link) ---- */
+.projectRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 20px;
+  border-top: 1px solid var(--gray-light);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background 0.35s var(--ease-out),
+    padding-left 0.3s var(--ease-out);
+  border-radius: 4px;
+}
+
+.projectRow:last-of-type {
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.projectRow:hover {
+  background: var(--black);
+  padding-left: 32px;
+}
+
+.projectLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.projectTitle {
+  font-size: clamp(28px, 4vw, 52px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: var(--black);
+  transition: color 0.3s ease;
+}
+
+.projectDesc {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--gray-dark);
+  letter-spacing: 0.01em;
+  transition: color 0.3s ease;
+}
+
+.projectAction {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 40px;
+}
+
+.projectAction .arrow {
+  display: inline-block;
+  transition: transform 0.25s var(--ease-out);
+}
+
+/* Hover: todos los textos se vuelven blancos */
+.projectRow:hover .projectTitle,
+.projectRow:hover .projectAction {
+  color: var(--white);
+}
+
+.projectRow:hover .projectDesc {
+  color: rgba(248, 247, 244, 0.55);
+}
+
+.projectRow:hover .projectAction .arrow {
+  transform: translateX(4px);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .header      { padding: 20px 24px; }
+  .headerRight { gap: 20px; }
+  .content     { padding: 110px 24px 60px; }
+  .heading     { margin-bottom: 28px; }
+  .filters     { gap: 8px; margin-bottom: 32px; }
+}
+
+@media (max-width: 640px) {
+  .projectRow  { padding: 22px 12px; flex-direction: column; align-items: flex-start; gap: 12px; }
+  .projectRow:hover { padding-left: 20px; }
+  .projectAction { margin-left: 0; }
+  .projectTitle  { font-size: clamp(22px, 7vw, 36px); }
+}

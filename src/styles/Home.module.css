@@ -1,0 +1,220 @@
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  min-height: 600px;
+  overflow: hidden;
+  background: #0a150c;
+  cursor: default;
+}
+
+/* ---- Video background ---- */
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+
+/* ---- Overlay: vignette en esquinas + oscurecido general ---- */
+.videoOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  /* Oscurecido base + vignette fuerte en todos los bordes */
+  background:
+    /* esquina top-left */
+    radial-gradient(ellipse 45% 40% at 0% 0%, rgba(0,0,0,0.72) 0%, transparent 100%),
+    /* esquina top-right */
+    radial-gradient(ellipse 45% 40% at 100% 0%, rgba(0,0,0,0.72) 0%, transparent 100%),
+    /* esquina bottom-left */
+    radial-gradient(ellipse 45% 40% at 0% 100%, rgba(0,0,0,0.72) 0%, transparent 100%),
+    /* esquina bottom-right */
+    radial-gradient(ellipse 45% 40% at 100% 100%, rgba(0,0,0,0.72) 0%, transparent 100%),
+    /* oscurecido superior */
+    linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, transparent 25%),
+    /* oscurecido inferior */
+    linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 30%),
+    /* velo global muy sutil */
+    rgba(0,0,0,0.18);
+}
+
+/* Canvas queda debajo del video (z-index default 0) */
+
+/* ---- Corner anchors ---- */
+.tl, .tr, .bl, .br {
+  position: absolute;
+  z-index: 20;
+}
+
+.tl { top: 36px; left: 36px; }
+.tr { top: 36px; right: 36px; }
+.bl { bottom: 36px; left: 36px; }
+.br { bottom: 36px; right: 36px; }
+
+/* ---- Role block (top-left) ---- */
+.role {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.roleTitle {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: #f8f7f4;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.8);
+}
+
+.roleSkills {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  color: rgba(248, 247, 244, 0.75);
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.7);
+}
+
+/* ---- Name (bottom-left) ---- */
+.name {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: #f8f7f4;
+  text-transform: uppercase;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.8);
+}
+
+/* ---- Nav links (top-right, bottom-right) ---- */
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: #f8f7f4;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.25s ease;
+  position: relative;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.8);
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: rgba(248, 247, 244, 0.9);
+  transition: width 0.3s var(--ease-out);
+}
+
+.navLink:hover::after { width: 100%; }
+.navLink:hover { color: #fff; }
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.25s var(--ease-out);
+}
+
+.navLink:hover .arrow { transform: translateX(3px); }
+
+/* ---- Center tagline ---- */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  text-align: center;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.tagline {
+  font-size: clamp(42px, 6vw, 90px);
+  font-weight: 800;
+  line-height: 1.0;
+  color: #f8f7f4;
+  letter-spacing: -0.02em;
+  text-shadow:
+    0 2px 60px rgba(0,0,0,0.7),
+    0 0 120px rgba(0,0,0,0.4);
+  display: block;
+}
+
+.tagline2 {
+  font-size: clamp(42px, 6vw, 90px);
+  font-weight: 300;
+  line-height: 1.0;
+  color: rgba(248, 247, 244, 0.8);
+  letter-spacing: -0.02em;
+  text-shadow:
+    0 2px 60px rgba(0,0,0,0.7),
+    0 0 120px rgba(0,0,0,0.4);
+  display: block;
+  margin-top: 4px;
+}
+
+/* ---- Language toggle ---- */
+.langToggle {
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.langBtn {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: rgba(248, 247, 244, 0.6);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 2px 0;
+  background: none;
+  border: none;
+  font-family: var(--font);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.7);
+}
+
+.langBtn:hover { color: rgba(248, 247, 244, 0.9); }
+.langBtnActive { color: #f8f7f4 !important; }
+.langSep { color: rgba(248, 247, 244, 0.25); font-size: 10px; }
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .tl { top: 24px; left: 20px; }
+  .tr { top: 24px; right: 20px; }
+  .bl { bottom: 24px; left: 20px; }
+  .br { bottom: 24px; right: 20px; }
+  .center { white-space: normal; text-align: center; width: 88vw; }
+  .tagline, .tagline2 { font-size: clamp(32px, 9vw, 52px); }
+  .langToggle { bottom: 22px; }
+  .roleSkills { display: none; }
+}
+
+@media (max-width: 480px) {
+  .tl { top: 20px; left: 16px; }
+  .tr { top: 20px; right: 16px; }
+  .bl { bottom: 20px; left: 16px; }
+  .br { bottom: 20px; right: 16px; }
+  .tagline, .tagline2 { font-size: clamp(28px, 10vw, 42px); }
+  .navLink { font-size: 10px; letter-spacing: 0.16em; }
+  .roleTitle, .name { font-size: 9px; }
+}

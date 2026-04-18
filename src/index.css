@@ -1,0 +1,52 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black:      #0a0a0a;
+  --white:      #f8f7f4;
+  --off-white:  #f2f1ee;
+  --gray-light: #e8e7e4;
+  --gray-mid:   #b0aea8;
+  --gray-dark:  #5a5854;
+  --font:       'Inter', system-ui, -apple-system, sans-serif;
+  --ease-out:   cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  font-family: var(--font);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--off-white);
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+::selection {
+  background: var(--black);
+  color: var(--white);
+}
+
+/* Page transition wrapper */
+.page-wrapper {
+  min-height: 100vh;
+}
