@@ -1,26 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
-  <!-- Left half: dark -->
   <rect width="600" height="675" fill="#0a0a0a"/>
-  <!-- Right half: light -->
   <rect x="600" width="600" height="675" fill="#f2f1ee"/>
 
-  <!-- Mark on dark (white) — centered in left half, scale 7x -->
-  <!-- Circle cx=150, cy=280, r=56 · Vertical x=94 y=196→336 · Base x=94→157 y=336 -->
-  <circle cx="300" cy="300" r="70" stroke="#f8f7f4" stroke-width="16" fill="none"/>
-  <line x1="230" y1="230" x2="230" y2="440" stroke="#f8f7f4" stroke-width="16" stroke-linecap="round"/>
-  <line x1="230" y1="440" x2="300" y2="440" stroke="#f8f7f4" stroke-width="16" stroke-linecap="round"/>
+  <!-- Mark on dark — scale 6x, centered at (300,337) -->
+  <!-- L vertical x=234,y=271→403 | foot 234→294,y=403 | A left (330,271)→(294,403) | A right (330,271)→(366,403) | crossbar (312,337)→(348,337) -->
+  <line x1="234" y1="271" x2="234" y2="403" stroke="#f8f7f4" stroke-width="15" stroke-linecap="round"/>
+  <line x1="234" y1="403" x2="294" y2="403" stroke="#f8f7f4" stroke-width="15" stroke-linecap="round"/>
+  <line x1="330" y1="271" x2="294" y2="403" stroke="#f8f7f4" stroke-width="15" stroke-linecap="round"/>
+  <line x1="330" y1="271" x2="366" y2="403" stroke="#f8f7f4" stroke-width="15" stroke-linecap="round"/>
+  <line x1="312" y1="337" x2="348" y2="337" stroke="#f8f7f4" stroke-width="15" stroke-linecap="round"/>
 
-  <!-- Label dark -->
-  <text x="300" y="530" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="11" fill="rgba(248,247,244,0.35)" text-anchor="middle" letter-spacing="4">VERSIÓN OSCURA</text>
+  <text x="300" y="500" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(248,247,244,0.3)" text-anchor="middle" letter-spacing="4">VERSIÓN OSCURA</text>
 
-  <!-- Mark on light (dark) — centered in right half -->
-  <circle cx="900" cy="300" r="70" stroke="#0a0a0a" stroke-width="16" fill="none"/>
-  <line x1="830" y1="230" x2="830" y2="440" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
-  <line x1="830" y1="440" x2="900" y2="440" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+  <!-- Mark on light — same coords shifted +600 -->
+  <line x1="834" y1="271" x2="834" y2="403" stroke="#0a0a0a" stroke-width="15" stroke-linecap="round"/>
+  <line x1="834" y1="403" x2="894" y2="403" stroke="#0a0a0a" stroke-width="15" stroke-linecap="round"/>
+  <line x1="930" y1="271" x2="894" y2="403" stroke="#0a0a0a" stroke-width="15" stroke-linecap="round"/>
+  <line x1="930" y1="271" x2="966" y2="403" stroke="#0a0a0a" stroke-width="15" stroke-linecap="round"/>
+  <line x1="912" y1="337" x2="948" y2="337" stroke="#0a0a0a" stroke-width="15" stroke-linecap="round"/>
 
-  <!-- Label light -->
-  <text x="900" y="530" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="11" fill="rgba(0,0,0,0.3)" text-anchor="middle" letter-spacing="4">VERSIÓN CLARA</text>
+  <text x="900" y="500" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(0,0,0,0.25)" text-anchor="middle" letter-spacing="4">VERSIÓN CLARA</text>
 
-  <!-- Divider line -->
-  <line x1="600" y1="0" x2="600" y2="675" stroke="rgba(128,128,128,0.2)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="675" stroke="rgba(128,128,128,0.15)" stroke-width="1"/>
 </svg>
