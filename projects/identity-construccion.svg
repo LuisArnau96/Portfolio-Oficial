@@ -1,51 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <rect width="1200" height="675" fill="#f2f1ee"/>
-
   <defs>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="20" cy="20" r="1.5" fill="rgba(0,0,0,0.1)"/>
+      <circle cx="20" cy="20" r="1.5" fill="rgba(0,0,0,0.08)"/>
     </pattern>
   </defs>
   <rect width="1200" height="675" fill="url(#grid)"/>
 
-  <!-- Construction guides -->
-  <line x1="100" y1="249" x2="550" y2="249" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
-  <line x1="100" y1="425" x2="550" y2="425" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
-  <line x1="100" y1="337" x2="550" y2="337" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
-  <line x1="212" y1="160" x2="212" y2="520" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
-  <line x1="292" y1="380" x2="292" y2="520" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
-  <line x1="340" y1="160" x2="340" y2="520" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
-  <line x1="388" y1="380" x2="388" y2="520" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
+  <!-- Wordmark con guías -->
+  <!-- Línea base superior LUIS -->
+  <line x1="80" y1="200" x2="720" y2="200" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
+  <!-- Línea base LUIS -->
+  <line x1="80" y1="340" x2="720" y2="340" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
+  <!-- Línea base ARNAU -->
+  <line x1="80" y1="490" x2="720" y2="490" stroke="rgba(180,60,40,0.3)" stroke-width="1" stroke-dasharray="6 4"/>
 
-  <!-- Shared vertex marker -->
-  <circle cx="292" cy="425" r="7" fill="none" stroke="rgba(180,60,40,0.7)" stroke-width="1.5"/>
-  <circle cx="292" cy="425" r="3" fill="rgba(180,60,40,0.7)"/>
+  <!-- Wordmark -->
+  <text x="80" y="340" font-family="system-ui,-apple-system,sans-serif" font-weight="900" font-size="148" fill="#0a0a0a" letter-spacing="-5">LUIS</text>
+  <text x="80" y="490" font-family="system-ui,-apple-system,sans-serif" font-weight="300" font-size="148" fill="#0a0a0a" letter-spacing="-5" opacity="0.5">ARNAU</text>
 
-  <!-- The mark -->
-  <line x1="212" y1="249" x2="212" y2="425" stroke="#0a0a0a" stroke-width="20" stroke-linecap="round"/>
-  <line x1="212" y1="425" x2="292" y2="425" stroke="#0a0a0a" stroke-width="20" stroke-linecap="round"/>
-  <line x1="340" y1="249" x2="292" y2="425" stroke="#0a0a0a" stroke-width="20" stroke-linecap="round"/>
-  <line x1="340" y1="249" x2="388" y2="425" stroke="#0a0a0a" stroke-width="20" stroke-linecap="round"/>
-  <line x1="316" y1="337" x2="364" y2="337" stroke="#0a0a0a" stroke-width="20" stroke-linecap="round"/>
+  <!-- Anotaciones -->
+  <text x="740" y="210" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(180,60,40,0.8)" letter-spacing="2">Cap height</text>
+  <text x="740" y="350" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(180,60,40,0.8)" letter-spacing="2">Baseline</text>
+  <text x="740" y="500" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(180,60,40,0.8)" letter-spacing="2">Baseline</text>
 
-  <!-- Labels -->
-  <text x="175" y="240" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(180,60,40,0.8)" text-anchor="middle" letter-spacing="1">L</text>
-  <text x="340" y="240" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(180,60,40,0.8)" text-anchor="middle" letter-spacing="1">A</text>
-  <text x="292" y="470" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(180,60,40,0.8)" text-anchor="middle">vértice compartido</text>
-
-  <!-- Right panel -->
-  <text x="660" y="240" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="28" fill="#0a0a0a" letter-spacing="2">CONSTRUCCIÓN</text>
-  <line x1="660" y1="258" x2="1100" y2="258" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
-
-  <text x="660" y="300" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="11" fill="rgba(0,0,0,0.4)" letter-spacing="4">ELEMENTOS</text>
-  <text x="660" y="324" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">① L — tronco vertical + pie horizontal</text>
-  <text x="660" y="348" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">② A — dos diagonales + travesaño</text>
-  <text x="660" y="372" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">③ Vértice compartido en la base</text>
-
-  <line x1="660" y1="400" x2="1100" y2="400" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
-
-  <text x="660" y="430" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="11" fill="rgba(0,0,0,0.4)" letter-spacing="4">PRINCIPIO</text>
-  <text x="660" y="458" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">El pie de la L y la pierna izquierda de la A</text>
-  <text x="660" y="478" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">se unen en un único punto. Dos letras,</text>
-  <text x="660" y="498" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">una sola geometría.</text>
+  <!-- Panel derecho -->
+  <text x="820" y="240" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="20" fill="#0a0a0a" letter-spacing="2">CONSTRUCCIÓN</text>
+  <line x1="820" y1="256" x2="1120" y2="256" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+  <text x="820" y="290" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="rgba(0,0,0,0.4)" letter-spacing="3">TIPOGRAFÍA</text>
+  <text x="820" y="316" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">Inter Variable</text>
+  <text x="820" y="360" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="rgba(0,0,0,0.4)" letter-spacing="3">PESO SUPERIOR</text>
+  <text x="820" y="386" font-family="system-ui,-apple-system,sans-serif" font-weight="900" font-size="15" fill="#0a0a0a">900 Black</text>
+  <text x="820" y="430" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="rgba(0,0,0,0.4)" letter-spacing="3">PESO INFERIOR</text>
+  <text x="820" y="456" font-family="system-ui,-apple-system,sans-serif" font-weight="300" font-size="15" fill="#0a0a0a">300 Light</text>
+  <text x="820" y="500" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="rgba(0,0,0,0.4)" letter-spacing="3">CONTRASTE DE PESO</text>
+  <text x="820" y="526" font-family="system-ui,-apple-system,sans-serif" font-size="15" fill="#0a0a0a">El nombre llama. El apellido sostiene.</text>
 </svg>

@@ -1,22 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <rect width="1200" height="675" fill="#0a0a0a"/>
 
-  <!-- Divider -->
-  <line x1="600" y1="80" x2="600" y2="595" stroke="rgba(248,247,244,0.1)" stroke-width="1"/>
+  <!-- Wordmark centrado, grande -->
+  <text x="100" y="350" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="900" font-size="220" fill="#f8f7f4" letter-spacing="-8">LUIS</text>
+  <text x="100" y="560" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="300" font-size="220" fill="#f8f7f4" letter-spacing="-8" opacity="0.55">ARNAU</text>
 
-  <!-- OPCIÓN A: Círculo sólido con LA negativo — izquierda -->
-  <text x="300" y="160" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(248,247,244,0.3)" text-anchor="middle" letter-spacing="5">OPCIÓN A</text>
-
-  <!-- Círculo grande -->
-  <circle cx="300" cy="340" r="120" fill="#f8f7f4"/>
-  <!-- LA en negativo -->
-  <text x="300" y="382" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="800" font-size="112" fill="#0a0a0a" text-anchor="middle" letter-spacing="-4">LA</text>
-
-  <!-- OPCIÓN B: Wordmark apilado — derecha -->
-  <text x="900" y="160" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(248,247,244,0.3)" text-anchor="middle" letter-spacing="5">OPCIÓN B</text>
-
-  <!-- LUIS bold -->
-  <text x="720" y="330" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="800" font-size="96" fill="#f8f7f4" letter-spacing="-3">LUIS</text>
-  <!-- ARNAU light -->
-  <text x="720" y="430" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="300" font-size="96" fill="#f8f7f4" letter-spacing="-3">ARNAU</text>
+  <!-- Tag -->
+  <text x="102" y="620" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="12" fill="rgba(248,247,244,0.25)" letter-spacing="5">IDENTIDAD VISUAL · 2025</text>
 </svg>
