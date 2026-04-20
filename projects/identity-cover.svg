@@ -1,18 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <rect width="1200" height="675" fill="#0a0a0a"/>
 
-  <!-- LA mark scaled 8x, centered left half -->
-  <!-- L vertical: x=212, y=249→425 | L foot: 212→292,y=425 -->
-  <!-- A left leg: (340,249)→(292,425) | A right: (340,249)→(388,425) | crossbar: (316,337)→(364,337) -->
-  <line x1="212" y1="249" x2="212" y2="425" stroke="#f8f7f4" stroke-width="20" stroke-linecap="round"/>
-  <line x1="212" y1="425" x2="292" y2="425" stroke="#f8f7f4" stroke-width="20" stroke-linecap="round"/>
-  <line x1="340" y1="249" x2="292" y2="425" stroke="#f8f7f4" stroke-width="20" stroke-linecap="round"/>
-  <line x1="340" y1="249" x2="388" y2="425" stroke="#f8f7f4" stroke-width="20" stroke-linecap="round"/>
-  <line x1="316" y1="337" x2="364" y2="337" stroke="#f8f7f4" stroke-width="20" stroke-linecap="round"/>
+  <!-- Divider -->
+  <line x1="600" y1="80" x2="600" y2="595" stroke="rgba(248,247,244,0.1)" stroke-width="1"/>
 
-  <!-- Wordmark right -->
-  <text x="650" y="305" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="700" font-size="54" fill="#f8f7f4" letter-spacing="6">LUIS ARNAU</text>
-  <text x="652" y="348" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="300" font-size="13" fill="rgba(248,247,244,0.35)" letter-spacing="7">IDENTIDAD VISUAL · 2025</text>
-  <line x1="652" y1="374" x2="1100" y2="374" stroke="rgba(248,247,244,0.1)" stroke-width="1"/>
-  <text x="652" y="394" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="400" font-size="12" fill="rgba(248,247,244,0.2)" letter-spacing="3">BRANDING · SISTEMA VISUAL</text>
+  <!-- OPCIÓN A: Círculo sólido con LA negativo — izquierda -->
+  <text x="300" y="160" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(248,247,244,0.3)" text-anchor="middle" letter-spacing="5">OPCIÓN A</text>
+
+  <!-- Círculo grande -->
+  <circle cx="300" cy="340" r="120" fill="#f8f7f4"/>
+  <!-- LA en negativo -->
+  <text x="300" y="382" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="800" font-size="112" fill="#0a0a0a" text-anchor="middle" letter-spacing="-4">LA</text>
+
+  <!-- OPCIÓN B: Wordmark apilado — derecha -->
+  <text x="900" y="160" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(248,247,244,0.3)" text-anchor="middle" letter-spacing="5">OPCIÓN B</text>
+
+  <!-- LUIS bold -->
+  <text x="720" y="330" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="800" font-size="96" fill="#f8f7f4" letter-spacing="-3">LUIS</text>
+  <!-- ARNAU light -->
+  <text x="720" y="430" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="300" font-size="96" fill="#f8f7f4" letter-spacing="-3">ARNAU</text>
 </svg>
