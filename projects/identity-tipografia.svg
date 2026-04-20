@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#f2f1ee"/>
+
+  <!-- Title -->
+  <text x="80" y="90" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="13" fill="rgba(0,0,0,0.35)" letter-spacing="5">SISTEMA TIPOGRÁFICO</text>
+  <line x1="80" y1="104" x2="1120" y2="104" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+
+  <!-- Weight 800 -->
+  <text x="80" y="185" font-family="system-ui,-apple-system,sans-serif" font-weight="800" font-size="72" fill="#0a0a0a" letter-spacing="-2">Menos ruido.</text>
+  <text x="1080" y="175" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="11" fill="rgba(0,0,0,0.3)" text-anchor="end" letter-spacing="2">800 · ExtraBold</text>
+
+  <!-- Weight 300 -->
+  <text x="80" y="250" font-family="system-ui,-apple-system,sans-serif" font-weight="300" font-size="72" fill="#0a0a0a" letter-spacing="-2">Más producto.</text>
+  <text x="1080" y="240" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="11" fill="rgba(0,0,0,0.3)" text-anchor="end" letter-spacing="2">300 · Light</text>
+
+  <line x1="80" y1="278" x2="1120" y2="278" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+
+  <!-- Alphabet specimen -->
+  <text x="80" y="330" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="18" fill="rgba(0,0,0,0.55)" letter-spacing="3">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</text>
+  <text x="80" y="358" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="18" fill="rgba(0,0,0,0.55)" letter-spacing="3">a b c d e f g h i j k l m n o p q r s t u v w x y z</text>
+  <text x="80" y="386" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="18" fill="rgba(0,0,0,0.55)" letter-spacing="3">0 1 2 3 4 5 6 7 8 9  ·  — ( ) / @ % &amp;</text>
+
+  <line x1="80" y1="410" x2="1120" y2="410" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+
+  <!-- Type scale -->
+  <text x="80" y="450" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="13" fill="rgba(0,0,0,0.35)" letter-spacing="4">ESCALA</text>
+  <text x="80" y="488" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="11" fill="rgba(0,0,0,0.3)" letter-spacing="3">DISPLAY ·</text>
+  <text x="200" y="488" font-family="system-ui,-apple-system,sans-serif" font-weight="800" font-size="32" fill="#0a0a0a">LUIS ARNAU</text>
+
+  <text x="80" y="526" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="11" fill="rgba(0,0,0,0.3)" letter-spacing="3">HEADING ·</text>
+  <text x="200" y="526" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="22" fill="#0a0a0a">Product Designer</text>
+
+  <text x="80" y="558" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="11" fill="rgba(0,0,0,0.3)" letter-spacing="3">BODY ·</text>
+  <text x="200" y="558" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="15" fill="rgba(0,0,0,0.7)">Diseño centrado en lo que importa, sin florituras.</text>
+
+  <text x="80" y="586" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="11" fill="rgba(0,0,0,0.3)" letter-spacing="3">LABEL ·</text>
+  <text x="200" y="586" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="11" fill="rgba(0,0,0,0.5)" letter-spacing="4">UX RESEARCH · UI DESIGN · BRANDING</text>
+
+  <!-- Font name -->
+  <text x="1120" y="660" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="11" fill="rgba(0,0,0,0.2)" text-anchor="end" letter-spacing="3">Inter · Variable</text>
+</svg>
