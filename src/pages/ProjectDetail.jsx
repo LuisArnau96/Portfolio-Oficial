@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { useLang } from '../context/LanguageContext'
 import { projects } from '../data/projects'
 import { projectDetails } from '../data/projectDetails'
-import { LogoMark } from '../components/Logo'
+import { LogoMark, LogoWordmark } from '../components/Logo'
 import s from '../styles/ProjectDetail.module.css'
 
 const fade = (delay = 0) => ({
@@ -36,7 +36,7 @@ export default function ProjectDetail() {
       {/* Header */}
       <header className={s.header}>
         <Link to="/" aria-label="Home">
-          <LogoMark size={28} />
+          <LogoWordmark inverted />
         </Link>
         <div className={s.headerRight}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>

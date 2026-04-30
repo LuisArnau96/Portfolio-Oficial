@@ -14,8 +14,7 @@ export default {
     filters: {
       all: 'TODO',
       uxui: 'UX/UI',
-      research: 'RESEARCH',
-      branding: 'BRANDING',
+      challenge: 'CHALLENGE',
     },
     see: 'VER',
   },
@@ -51,6 +50,11 @@ export default {
       title: 'Estudio Cactus',
       desc: 'Mapa interactivo 3D para navegación de estudio.',
       tags: ['UX/UI', '3D', 'Branding'],
+    },
+    identity: {
+      title: 'Identidad Visual',
+      desc: 'Construcción de una marca personal desde cero, basada en principios Bauhaus.',
+      tags: ['Branding'],
     },
   },
 }

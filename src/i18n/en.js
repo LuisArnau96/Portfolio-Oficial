@@ -14,8 +14,7 @@ export default {
     filters: {
       all: 'ALL',
       uxui: 'UX/UI',
-      research: 'RESEARCH',
-      branding: 'BRANDING',
+      challenge: 'CHALLENGE',
     },
     see: 'SEE',
   },
@@ -51,6 +50,11 @@ export default {
       title: 'Estudio Cactus',
       desc: '3D interactive map for studio navigation.',
       tags: ['UX/UI', '3D', 'Branding'],
+    },
+    identity: {
+      title: 'Visual Identity',
+      desc: 'Building a personal brand from scratch, based on Bauhaus principles.',
+      tags: ['Branding'],
     },
   },
 }

@@ -465,4 +465,99 @@ export const projectDetails = {
     cover: './projects/cactus-logo.png',
     gallery: [],
   },
+
+  identity: {
+    year: '2025',
+    role: { es: 'Branding · Identidad Visual', en: 'Branding · Visual Identity' },
+    subtitle: {
+      es: 'Construcción de una marca personal desde cero, basada en principios Bauhaus',
+      en: 'Building a personal brand from scratch, based on Bauhaus principles',
+    },
+    context: {
+      es: 'Cuando entré en la carrera de Ingeniería de Diseño Industrial estudié historia del diseño. Algo entró en mi cabeza en ese momento y no ha salido desde entonces: la Bauhaus. No como referencia estética, sino como forma de pensar. Construir desde lo esencial. Dar forma solo a lo que tiene función. Eliminar todo lo demás.\n\nEso es lo que significa para mí Menos ruido. Más producto.',
+      en: 'When I started my Industrial Design Engineering degree, I studied design history. Something got into my head then and never left: the Bauhaus. Not as an aesthetic reference, but as a way of thinking. Build from the essential. Give form only to what has function. Eliminate everything else.\n\nThat is what Less noise. More product. means to me.',
+    },
+    problem: {
+      es: 'Necesitaba una identidad que no fuera decorativa, sino consecuente. Que comunicara exactamente lo que hago sin florituras. Una marca que funcionara tanto para un recruiter como para un cliente directo, y que aguantara el paso del tiempo sin depender de tendencias.',
+      en: 'I needed an identity that was not decorative, but consistent. One that communicated exactly what I do without embellishment. A brand that would work for both a recruiter and a direct client, and that would stand the test of time without depending on trends.',
+    },
+    objectives: {
+      es: [
+        'Crear un símbolo geométrico construido desde principios Bauhaus',
+        'Que el símbolo contenga las iniciales LA de forma no literal',
+        'Establecer un sistema tipográfico basado en geometría',
+        'Sistema monocromático: sin color como ruido decorativo',
+        'Que la identidad sea coherente con la filosofía del portfolio',
+      ],
+      en: [
+        'Create a geometric symbol built from Bauhaus principles',
+        'The symbol should contain the initials LA in a non-literal way',
+        'Establish a typography system based on geometry',
+        'Monochromatic system: no color as decorative noise',
+        'The identity must be consistent with the portfolio philosophy',
+      ],
+    },
+    roleText: {
+      es: 'Concepto, investigación, construcción geométrica, sistema tipográfico, sistema de color, aplicación digital',
+      en: 'Concept, research, geometric construction, typographic system, color system, digital application',
+    },
+    process: {
+      es: [
+        'Definición de valores y filosofía de marca',
+        'Investigación: Bauhaus, Bayer, Schlemmer, Max Bill',
+        'Bocetos de formas geométricas primarias',
+        'Exploración de la relación círculo + línea recta',
+        'Construcción del símbolo sobre retícula modular',
+        'Selección tipográfica: Inter Variable',
+        'Definición de la escala tipográfica',
+        'Pruebas de aplicación en contexto digital',
+      ],
+      en: [
+        'Brand values and philosophy definition',
+        'Research: Bauhaus, Bayer, Schlemmer, Max Bill',
+        'Primary geometric form sketches',
+        'Exploration of circle + straight line relationship',
+        'Symbol construction on modular grid',
+        'Type selection: Inter Variable',
+        'Type scale definition',
+        'Digital context application tests',
+      ],
+    },
+    result: {
+      es: 'Un símbolo construido desde tres elementos geométricos: un círculo, una línea vertical tangente a él, y una base horizontal. Los tres elementos contienen las iniciales LA. El círculo aporta lo orgánico y la precisión geométrica al mismo tiempo — exactamente la tensión entre naturaleza e ingeniería que define mi forma de trabajar.',
+      en: 'A symbol built from three geometric elements: a circle, a vertical line tangent to it, and a horizontal base. The three elements contain the initials LA. The circle brings both the organic and the geometric precision at once — exactly the tension between nature and engineering that defines how I work.',
+    },
+    reflection: {
+      es: '"El mejor logo es el que no necesita explicación para funcionar, pero tiene una razón para cada píxel cuando la buscas."',
+      en: '"The best logo is the one that needs no explanation to work, but has a reason for every pixel when you look for it."',
+    },
+    prototype: null,
+    cover: './projects/identity-cover.svg',
+    gallery: [
+      {
+        title: { es: 'Construcción geométrica', en: 'Geometric construction' },
+        desc: {
+          es: 'El símbolo se construye sobre una retícula modular. Tres elementos: círculo, línea vertical tangente, base horizontal. El tope del trazo y el tope del círculo comparten la misma altura — orden interno sin que se vea.',
+          en: 'The symbol is built on a modular grid. Three elements: circle, tangent vertical line, horizontal base. The top of the stroke and the top of the circle share the same height — internal order that is felt but not seen.',
+        },
+        image: './projects/identity-construccion.svg',
+      },
+      {
+        title: { es: 'Sistema: versiones', en: 'System: versions' },
+        desc: {
+          es: 'La marca funciona sobre fondo oscuro y claro sin modificaciones. El monocromático no es una limitación — es la decisión.',
+          en: 'The mark works on dark and light backgrounds without modifications. Monochromatic is not a limitation — it is the decision.',
+        },
+        image: './projects/identity-sistema.svg',
+      },
+      {
+        title: { es: 'Sistema tipográfico', en: 'Typographic system' },
+        desc: {
+          es: 'Inter Variable como única tipografía. Geométrica, legible, sin serif. La misma lógica que el símbolo: construida desde formas primarias, sin ornamento.',
+          en: 'Inter Variable as the sole typeface. Geometric, readable, sans-serif. The same logic as the symbol: built from primary forms, without ornament.',
+        },
+        image: './projects/identity-tipografia.svg',
+      },
+    ],
+  },
 }

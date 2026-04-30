@@ -3,4 +3,6 @@ dist
 .DS_Store
 *.local
 public/hero.mp4
+public/hero-desktop.mp4
+public/hero-mobile.mp4
 .claude

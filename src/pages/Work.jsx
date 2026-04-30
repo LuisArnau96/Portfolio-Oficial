@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useLang } from '../context/LanguageContext'
 import { projects } from '../data/projects'
-import { LogoMark } from '../components/Logo'
+import { LogoMark, LogoWordmark } from '../components/Logo'
 import s from '../styles/Work.module.css'
 
-const FILTERS = ['all', 'uxui', 'research', 'branding']
+const FILTERS = ['all', 'uxui', 'challenge']
 
 const listVariants = {
   hidden: {},
@@ -38,7 +38,7 @@ export default function Work() {
     <div className={s.page}>
       <header ref={headerRef} className={`${s.header} ${scrolled ? s.scrolled : ''}`}>
         <Link to="/" aria-label="Home">
-          <LogoMark size={36} />
+          <LogoWordmark inverted />
         </Link>
 
         <div className={s.headerRight}>

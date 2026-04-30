@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#f2f1ee"/>
+
+  <text x="80" y="86" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="11" fill="rgba(0,0,0,0.3)" letter-spacing="5">SISTEMA TIPOGRÁFICO</text>
+  <line x1="80" y1="100" x2="1120" y2="100" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+
+  <!-- Specimen principal -->
+  <text x="80" y="210" font-family="system-ui,-apple-system,sans-serif" font-weight="900" font-size="110" fill="#0a0a0a" letter-spacing="-4">Menos ruido.</text>
+  <text x="80" y="330" font-family="system-ui,-apple-system,sans-serif" font-weight="300" font-size="110" fill="#0a0a0a" letter-spacing="-4" opacity="0.5">Más producto.</text>
+
+  <line x1="80" y1="360" x2="1120" y2="360" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+
+  <!-- Escala -->
+  <text x="80" y="400" font-family="system-ui,-apple-system,sans-serif" font-weight="900" font-size="11" fill="rgba(0,0,0,0.3)" letter-spacing="4">ESCALA DE PESOS</text>
+
+  <text x="80" y="438" font-family="system-ui,-apple-system,sans-serif" font-weight="900" font-size="32" fill="#0a0a0a">LUIS ARNAU — 900 Black</text>
+  <text x="80" y="476" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="32" fill="#0a0a0a" opacity="0.75">LUIS ARNAU — 700 Bold</text>
+  <text x="80" y="514" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="32" fill="#0a0a0a" opacity="0.55">LUIS ARNAU — 400 Regular</text>
+  <text x="80" y="552" font-family="system-ui,-apple-system,sans-serif" font-weight="300" font-size="32" fill="#0a0a0a" opacity="0.4">LUIS ARNAU — 300 Light</text>
+
+  <text x="1120" y="660" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="rgba(0,0,0,0.2)" text-anchor="end" letter-spacing="3">Inter Variable</text>
+</svg>

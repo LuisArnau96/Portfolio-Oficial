@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#0a0a0a"/>
+
+  <!-- Wordmark centrado, grande -->
+  <text x="100" y="350" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="900" font-size="220" fill="#f8f7f4" letter-spacing="-8">LUIS</text>
+  <text x="100" y="560" font-family="system-ui,-apple-system,'Helvetica Neue',sans-serif" font-weight="300" font-size="220" fill="#f8f7f4" letter-spacing="-8" opacity="0.55">ARNAU</text>
+
+  <!-- Tag -->
+  <text x="102" y="620" font-family="system-ui,-apple-system,sans-serif" font-weight="400" font-size="12" fill="rgba(248,247,244,0.25)" letter-spacing="5">IDENTIDAD VISUAL · 2025</text>
+</svg>
