@@ -21,7 +21,7 @@ const content = {
       {
         role: 'Ingeniero de Producción',
         company: 'SCN (Stadler Rail)',
-        period: 'Dic 2024 – Abr 2025',
+        period: 'May 2024 – Abr 2026',
         desc: 'Análisis de procesos productivos, coordinación interdepartamental y documentación técnica.',
       },
       {
@@ -66,7 +66,7 @@ const content = {
       {
         role: 'Production Engineer',
         company: 'SCN (Stadler Rail)',
-        period: 'Dec 2024 – Apr 2025',
+        period: 'May 2024 – Apr 2026',
         desc: 'Production process analysis, cross-department coordination and technical documentation.',
       },
       {
