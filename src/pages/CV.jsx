@@ -13,12 +13,6 @@ const content = {
     },
     experience: [
       {
-        role: 'Diseñador UX/UI — Challenge',
-        company: 'Estudio Cactus',
-        period: '2025',
-        desc: 'Diseño de mapa interactivo 3D para navegación de estudio. Prueba técnica de proceso de selección.',
-      },
-      {
         role: 'Diseñador Gráfico',
         company: 'Esmalglass',
         period: 'Jun 2021 – Jul 2022',
@@ -27,7 +21,7 @@ const content = {
       {
         role: 'Ingeniero de Producción',
         company: 'SCN (Stadler Rail)',
-        period: 'May 2024 – Abr 2025',
+        period: 'Dic 2024 – Abr 2025',
         desc: 'Análisis de procesos productivos, coordinación interdepartamental y documentación técnica.',
       },
       {
@@ -64,12 +58,6 @@ const content = {
     },
     experience: [
       {
-        role: 'UX/UI Designer — Challenge',
-        company: 'Estudio Cactus',
-        period: '2025',
-        desc: 'Interactive 3D map design for studio navigation. Technical challenge for a job interview process.',
-      },
-      {
         role: 'Graphic Designer',
         company: 'Esmalglass',
         period: 'Jun 2021 – Jul 2022',
@@ -78,7 +66,7 @@ const content = {
       {
         role: 'Production Engineer',
         company: 'SCN (Stadler Rail)',
-        period: 'May 2024 – Apr 2025',
+        period: 'Dec 2024 – Apr 2025',
         desc: 'Production process analysis, cross-department coordination and technical documentation.',
       },
       {
