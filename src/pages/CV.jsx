@@ -13,10 +13,10 @@ const content = {
     },
     experience: [
       {
-        role: 'Diseñador UX/UI — Freelance',
+        role: 'Diseñador UX/UI — Challenge',
         company: 'Estudio Cactus',
         period: '2025',
-        desc: 'Diseño de mapa interactivo 3D para navegación del estudio. Proyecto real de cliente.',
+        desc: 'Diseño de mapa interactivo 3D para navegación de estudio. Prueba técnica de proceso de selección.',
       },
       {
         role: 'Diseñador Gráfico',
@@ -27,7 +27,7 @@ const content = {
       {
         role: 'Ingeniero de Producción',
         company: 'SCN (Stadler Rail)',
-        period: 'May 2024 – Actualidad',
+        period: 'May 2024 – Abr 2025',
         desc: 'Análisis de procesos productivos, coordinación interdepartamental y documentación técnica.',
       },
       {
@@ -39,7 +39,7 @@ const content = {
     ],
     education: [
       { title: 'Máster en UX/UI Design', school: 'Nuclio Digital School', period: '2024' },
-      { title: 'Grado en Ingeniería', school: 'Universidad Politécnica de Valencia', period: '2017 – 2022' },
+      { title: 'Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos', school: 'Universitat Politècnica de València', period: '2017 – 2022' },
     ],
     projects: [
       { name: 'LoLocal', desc: 'App marketplace para comercios locales — UX Research, UI Design, Branding' },
@@ -64,10 +64,10 @@ const content = {
     },
     experience: [
       {
-        role: 'UX/UI Designer — Freelance',
+        role: 'UX/UI Designer — Challenge',
         company: 'Estudio Cactus',
         period: '2025',
-        desc: 'Designed an interactive 3D map for studio navigation. Real client project.',
+        desc: 'Interactive 3D map design for studio navigation. Technical challenge for a job interview process.',
       },
       {
         role: 'Graphic Designer',
@@ -78,7 +78,7 @@ const content = {
       {
         role: 'Production Engineer',
         company: 'SCN (Stadler Rail)',
-        period: 'May 2024 – Present',
+        period: 'May 2024 – Apr 2025',
         desc: 'Production process analysis, cross-department coordination and technical documentation.',
       },
       {
@@ -90,7 +90,7 @@ const content = {
     ],
     education: [
       { title: 'Master\'s in UX/UI Design', school: 'Nuclio Digital School', period: '2024' },
-      { title: 'Engineering Degree', school: 'Universitat Politècnica de València', period: '2017 – 2022' },
+      { title: 'Degree in Industrial Design Engineering and Product Development', school: 'Universitat Politècnica de València', period: '2017 – 2022' },
     ],
     projects: [
       { name: 'LoLocal', desc: 'Marketplace app for local businesses — UX Research, UI Design, Branding' },
