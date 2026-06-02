@@ -468,14 +468,14 @@ export const projectDetails = {
 
   portfolio: {
     year: '2025',
-    role: { es: 'UX/UI Design · Diseño Visual · Dirección creativa', en: 'UX/UI Design · Visual Design · Creative Direction' },
+    role: { es: 'UX/UI Design · Diseño Visual · Dirección Creativa', en: 'UX/UI Design · Visual Design · Creative Direction' },
     subtitle: {
       es: 'Rediseño completo del portfolio personal: de una plantilla estándar a una identidad editorial propia',
       en: 'Full personal portfolio redesign: from a standard template to a distinctive editorial identity',
     },
     context: {
-      es: 'Mi portfolio anterior (V8) era funcional pero genérico: hero centrado con tipografía serif decorativa, navbar horizontal clásica, estructura de plantilla. Mirando otros portfolios de UX/UI me di cuenta de que todos se parecen demasiado. Si el primer impacto visual no dice nada, el recruiter pasa al siguiente antes de leer un solo proyecto.',
-      en: 'My previous portfolio (V8) was functional but generic: centred hero with decorative serif type, classic horizontal navbar, template structure. Looking at other UX/UI portfolios I realised they all look too similar. If the visual first impact says nothing, the recruiter moves on before reading a single project.',
+      es: 'Mi portfolio anterior era funcional pero genérico: hero centrado con tipografía serif decorativa, navbar horizontal clásica, estructura de plantilla. Mirando otros portfolios de UX/UI me di cuenta de que todos se parecen demasiado. Si el primer impacto visual no dice nada, el recruiter pasa al siguiente antes de leer un solo proyecto.',
+      en: 'My previous portfolio was functional but generic: centred hero with decorative serif type, classic horizontal navbar, template structure. Looking at other UX/UI portfolios I realised they all look too similar. If the visual first impact says nothing, the recruiter moves on before reading a single project.',
     },
     problem: {
       es: 'El diseño no reflejaba mi criterio estético. No había señales de disponibilidad ni acceso directo al CV — dos cosas que un recruiter busca en los primeros segundos. Y la navegación entre secciones tenía fricciones: desde Contacto no se podía volver, la tipografía del botón "← Trabajo" no era coherente con el resto.',
@@ -503,7 +503,7 @@ export const projectDetails = {
     },
     process: {
       es: [
-        'Auditoría del V8 + lista de problemas concretos',
+        'Auditoría del portfolio anterior + lista de problemas concretos',
         'Referencias: cine, editorial de moda, fotografía analógica de montaña',
         'Decisión hero: vídeo de fondo + UI anclada en esquinas (rompe el patrón centrado)',
         'Color: negro puro / off-white / verde #4ade80 solo para disponibilidad',
@@ -514,7 +514,7 @@ export const projectDetails = {
         'Sesión de testing con feedback de recruiter real en tiempo real',
       ],
       en: [
-        'V8 audit + list of specific problems',
+        'Previous portfolio audit + list of specific problems',
         'References: cinema, fashion editorial, analogue mountain photography',
         'Hero decision: video background + corner-anchored UI (breaks the centred pattern)',
         'Colour: pure black / off-white / green #4ade80 exclusively for availability',
@@ -537,7 +537,7 @@ export const projectDetails = {
     cover: './projects/portfolio-cover.png',
     gallery: [
       {
-        title: { es: 'Versión anterior (V8) — el problema', en: 'Previous version (V8) — the problem' },
+        title: { es: 'Versión anterior — el problema', en: 'Previous version — the problem' },
         desc: { es: 'Hero centrado, serif decorativa, estructura de plantilla. Correcto técnicamente pero sin personalidad ni diferenciación. Un recruiter lo ve y lo olvida.', en: 'Centred hero, decorative serif, template structure. Technically correct but with no personality or differentiation. A recruiter sees it and forgets it.' },
         image: './projects/portfolio-v1.png',
       },

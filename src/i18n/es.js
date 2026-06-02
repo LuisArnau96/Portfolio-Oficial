@@ -56,8 +56,8 @@ export default {
       tags: ['UX/UI', '3D', 'Branding'],
     },
     portfolio: {
-      title: 'Portfolio v2',
-      desc: 'Rediseño del portfolio personal con identidad editorial.',
+      title: 'Rediseño del portfolio',
+      desc: 'De una plantilla estándar a una identidad editorial propia.',
       tags: ['UX/UI', 'Diseño Visual'],
     },
   },
