@@ -8,6 +8,7 @@ export default {
     skills: 'DISEÑO · INGENIERÍA · UX',
     tagline: 'Menos ruido.',
     tagline2: 'Más producto.',
+    location: 'Sagunto, Valencia',
   },
   work: {
     heading: 'Trabajo.',
@@ -23,7 +24,7 @@ export default {
     sub: 'Cuéntame tu proyecto y lo hacemos realidad.',
     email: 'EMAIL',
     linkedin: 'LINKEDIN',
-    copyright: '© 2025 Luis Arnau',
+    copyright: '© 2026 Luis Arnau',
   },
   projects: {
     lolocal: {

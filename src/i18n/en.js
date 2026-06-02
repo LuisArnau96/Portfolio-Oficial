@@ -8,6 +8,7 @@ export default {
     skills: 'DESIGN · ENGINEERING · UX',
     tagline: 'Less noise.',
     tagline2: 'More product.',
+    location: 'Sagunto, Valencia',
   },
   work: {
     heading: 'Work.',
@@ -23,7 +24,7 @@ export default {
     sub: 'Tell me about your project and we\'ll make it happen.',
     email: 'EMAIL',
     linkedin: 'LINKEDIN',
-    copyright: '© 2025 Luis Arnau',
+    copyright: '© 2026 Luis Arnau',
   },
   projects: {
     lolocal: {

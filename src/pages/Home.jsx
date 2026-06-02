@@ -73,8 +73,23 @@ export default function Home() {
         </motion.span>
       </div>
 
-      <motion.div className={`${s.bl} ${s.name}`} {...fadeIn(0.3)}>
-        LUIS ARNAU
+      <motion.div className={`${s.bl} ${s.nameBlock}`} {...fadeIn(0.3)}>
+        <span className={s.name}>LUIS ARNAU</span>
+        <span className={s.nameSub}>{t('hero.location')}</span>
+        <div className={s.nameLinks}>
+          <a
+            href="https://www.linkedin.com/in/luis-arnau"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={s.nameLink}
+          >
+            LINKEDIN <span className={s.arrow}>→</span>
+          </a>
+          <span className={s.nameDot}>·</span>
+          <a href="mailto:luisarnau9@gmail.com" className={s.nameLink}>
+            EMAIL <span className={s.arrow}>→</span>
+          </a>
+        </div>
       </motion.div>
 
       <motion.div className={s.br} {...fadeIn(0.3)}>
