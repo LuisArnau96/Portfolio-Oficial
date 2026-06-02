@@ -21,8 +21,8 @@ export default function Contact() {
       </div>
 
       <header className={s.header}>
-        <Link to="/" aria-label="Home">
-          <LogoMark size={36} inverted />
+        <Link to="/" className={s.logoLink} aria-label="Home">
+          <LogoMark />
         </Link>
 
         <div className={s.headerRight}>
