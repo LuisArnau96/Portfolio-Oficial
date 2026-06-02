@@ -102,9 +102,16 @@ export default function Work() {
                     <span className={s.projectTitle}>{info.title}</span>
                     <span className={s.projectDesc}>{info.desc}</span>
                   </div>
-                  <span className={s.projectAction}>
-                    {t('work.see')} <span className={s.arrow}>→</span>
-                  </span>
+                  <div className={s.projectRight}>
+                    {project.image && (
+                      <div className={s.projectThumb}>
+                        <img src={project.image} alt={info.title} />
+                      </div>
+                    )}
+                    <span className={s.projectAction}>
+                      {t('work.see')} <span className={s.arrow}>→</span>
+                    </span>
+                  </div>
                 </Link>
               </motion.div>
             )

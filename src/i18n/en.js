@@ -9,6 +9,7 @@ export default {
     tagline: 'Less noise.',
     tagline2: 'More product.',
     location: 'Sagunto, Valencia',
+    available: 'Available · Full-time · Remote',
   },
   work: {
     heading: 'Work.',
@@ -51,11 +52,6 @@ export default {
       title: 'Estudio Cactus',
       desc: '3D interactive map for studio navigation.',
       tags: ['UX/UI', '3D', 'Branding'],
-    },
-    identity: {
-      title: 'Visual Identity',
-      desc: 'Building a personal brand from scratch, based on Bauhaus principles.',
-      tags: ['Branding'],
     },
   },
 }

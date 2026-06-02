@@ -56,6 +56,10 @@ export default function Home() {
       <motion.div className={`${s.tl} ${s.role}`} {...fadeIn(0.2)}>
         <span className={s.roleTitle}>{t('hero.role')}</span>
         <span className={s.roleSkills}>{t('hero.skills')}</span>
+        <span className={s.availability}>
+          <span className={s.availDot} />
+          {t('hero.available')}
+        </span>
       </motion.div>
 
       <motion.div className={s.tr} {...fadeIn(0.2)}>
