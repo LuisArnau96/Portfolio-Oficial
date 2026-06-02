@@ -99,7 +99,12 @@ export default function Work() {
               <motion.div key={project.id} variants={rowVariants} layout>
                 <Link to={`/project/${project.id}`} className={s.projectRow}>
                   <div className={s.projectLeft}>
-                    <span className={s.projectTitle}>{info.title}</span>
+                    <div className={s.projectTitleRow}>
+                      <span className={s.projectTitle}>{info.title}</span>
+                      {project.type === 'client' && (
+                        <span className={s.clientBadge}>{lang === 'es' ? 'Cliente real' : 'Real client'}</span>
+                      )}
+                    </div>
                     <span className={s.projectDesc}>{info.desc}</span>
                   </div>
                   <div className={s.projectRight}>

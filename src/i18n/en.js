@@ -10,6 +10,7 @@ export default {
     tagline2: 'More product.',
     location: 'Sagunto, Valencia',
     available: 'Available · Full-time · Remote',
+    cv: 'CV',
   },
   work: {
     heading: 'Work.',
@@ -22,9 +23,10 @@ export default {
   },
   contact: {
     heading: "Let's talk.",
-    sub: 'Tell me about your project and we\'ll make it happen.',
+    sub: 'Product designer focused on UX and digital systems. Open to full-time opportunities and freelance projects.',
     email: 'EMAIL',
     linkedin: 'LINKEDIN',
+    cv: 'DOWNLOAD CV',
     copyright: '© 2026 Luis Arnau',
   },
   projects: {

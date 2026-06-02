@@ -10,6 +10,7 @@ export default {
     tagline2: 'Más producto.',
     location: 'Sagunto, Valencia',
     available: 'Disponible · Full-time · Remoto',
+    cv: 'CV',
   },
   work: {
     heading: 'Trabajo.',
@@ -22,9 +23,10 @@ export default {
   },
   contact: {
     heading: "Hablemos.",
-    sub: 'Cuéntame tu proyecto y lo hacemos realidad.',
+    sub: 'Diseñador de producto enfocado en UX y sistemas digitales. Abierto a oportunidades full-time y proyectos freelance.',
     email: 'EMAIL',
     linkedin: 'LINKEDIN',
+    cv: 'DESCARGAR CV',
     copyright: '© 2026 Luis Arnau',
   },
   projects: {
