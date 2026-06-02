@@ -474,12 +474,12 @@ export const projectDetails = {
       en: 'Full personal portfolio redesign: from a standard template to a unique editorial identity',
     },
     context: {
-      es: 'El portfolio anterior (V8) seguía una estructura convencional: hero centrado, navbar horizontal, tipografía serif decorativa. Funcionaba, pero no se diferenciaba. En un mercado donde todos los portfolios de UX/UI se parecen, pasar desapercibido es el mayor error.',
-      en: 'The previous portfolio (V8) followed a conventional structure: centred hero, horizontal navbar, decorative serif typography. It worked, but it did not stand out. In a market where most UX/UI portfolios look the same, going unnoticed is the biggest mistake.',
+      es: 'Mi portfolio anterior (V8) seguía una estructura convencional: hero centrado, navbar horizontal, tipografía serif decorativa. Funcionaba, pero no me diferenciaba. En un mercado donde todos los portfolios de UX/UI se parecen, pasar desapercibido es el mayor error.',
+      en: 'My previous portfolio (V8) followed a conventional structure: centred hero, horizontal navbar, decorative serif typography. It worked, but it didn\'t set me apart. In a market where most UX/UI portfolios look the same, going unnoticed is the biggest mistake.',
     },
     problem: {
-      es: 'El portfolio no reflejaba la personalidad ni el criterio estético de Luis. La primera impresión era genérica y olvidable. Además, faltaban señales clave para recruiters: disponibilidad, forma de contacto directa y acceso al CV.',
-      en: 'The portfolio did not reflect Luis\'s personality or aesthetic sensibility. The first impression was generic and forgettable. It also lacked key signals for recruiters: availability status, direct contact, and CV access.',
+      es: 'No reflejaba mi criterio estético ni mi personalidad. La primera impresión era genérica y olvidable. Además faltaban señales clave para recruiters: disponibilidad, forma de contacto directa y acceso al CV.',
+      en: 'It didn\'t reflect my aesthetic sensibility or personality. The first impression was generic and forgettable. It also lacked key signals for recruiters: availability status, direct contact, and CV access.',
     },
     objectives: {
       es: [
@@ -498,8 +498,8 @@ export const projectDetails = {
       ],
     },
     roleText: {
-      es: 'Diseño UX/UI completo: moodboard, decisiones tipográficas, sistema de color, layout y componentes. La implementación técnica se realizó en colaboración con IA (Claude), actuando como director creativo que toma decisiones y valida resultados en tiempo real.',
-      en: 'Full UX/UI design: moodboard, typographic decisions, colour system, layout and components. Technical implementation was carried out in collaboration with AI (Claude), acting as creative director — making decisions and validating results in real time.',
+      es: 'Diseño UX/UI completo: referencias visuales, decisiones tipográficas, sistema de color, layout y componentes. La implementación técnica la hice en colaboración con IA (Claude), tomando las decisiones de diseño y validando cada resultado en tiempo real.',
+      en: 'Full UX/UI design: visual references, typographic decisions, colour system, layout and components. I handled the technical implementation in collaboration with AI (Claude), making all design decisions and validating results in real time.',
     },
     process: {
       es: [
@@ -526,8 +526,8 @@ export const projectDetails = {
       ],
     },
     result: {
-      es: 'Portfolio con identidad visual editorial y cinematográfica que se diferencia del 95% de los portfolios UX/UI. Hero con vídeo de fondo, sistema de navegación por esquinas, página de trabajo con interacciones de reveal, CV integrado imprimible y soporte bilingüe completo (ES/EN).',
-      en: 'Portfolio with an editorial, cinematic visual identity that stands out from 95% of UX/UI portfolios. Video background hero, corner-anchored navigation system, work page with reveal interactions, integrated printable CV, and full bilingual support (ES/EN).',
+      es: 'Un portfolio con identidad visual editorial y cinematográfica que se diferencia del 95% de los portfolios UX/UI que veo. Hero con vídeo de fondo, navegación anclada en esquinas, página de trabajo con reveal en hover, CV imprimible integrado y soporte bilingüe completo (ES/EN).',
+      en: 'A portfolio with an editorial, cinematic visual identity that stands out from 95% of the UX/UI portfolios I see out there. Video background hero, corner-anchored navigation, work page with hover reveal, integrated printable CV, and full bilingual support (ES/EN).',
     },
     reflection: {
       es: '"Diseñar tu propio portfolio es el proyecto más difícil: el cliente eres tú mismo, los requisitos son infinitos y nunca está terminado del todo. Pero es también el más honesto."',
