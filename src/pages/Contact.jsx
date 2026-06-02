@@ -38,7 +38,7 @@ export default function Contact() {
             >EN</button>
           </div>
 
-          <Link to="/work" className={s.navLink}>
+          <Link to="/work" className={s.workLink}>
             {t('nav.work')} <span className={s.arrow}>→</span>
           </Link>
         </div>
