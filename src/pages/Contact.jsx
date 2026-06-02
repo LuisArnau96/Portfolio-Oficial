@@ -49,6 +49,10 @@ export default function Contact() {
           {t('contact.heading')}
         </motion.h1>
 
+        <motion.div className={s.photoWrap} {...fade(0.18)}>
+          <img src="./foto-luis.jpg" alt="Luis Arnau" className={s.photo} />
+        </motion.div>
+
         <motion.p className={s.sub} {...fade(0.25)}>
           {t('contact.sub')}
         </motion.p>
@@ -58,7 +62,7 @@ export default function Contact() {
             {t('contact.email')} →
           </a>
           <a
-            href="https://www.linkedin.com/in/luis-arnau/"
+            href="https://www.linkedin.com/in/luis-arnau"
             target="_blank"
             rel="noopener noreferrer"
             className={s.contactLink}

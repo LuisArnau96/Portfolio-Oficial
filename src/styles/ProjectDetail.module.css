@@ -40,6 +40,30 @@
 }
 .backLink:hover { opacity: 0.6; }
 
+.langToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.langBtn {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--gray-mid);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  background: none;
+  border: none;
+  font-family: var(--font);
+  padding: 2px 0;
+}
+
+.langBtn:hover { color: var(--black); }
+.langBtnActive { color: var(--black) !important; }
+.langSep { color: var(--gray-light); font-size: 10px; }
+
 /* ---- Content wrapper ---- */
 .content {
   max-width: 760px;

@@ -39,14 +39,14 @@ export default function ProjectDetail() {
           <LogoWordmark inverted />
         </Link>
         <div className={s.headerRight}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+          <div className={s.langToggle}>
             <button
-              style={{ fontFamily: 'var(--font)', fontSize: 10, fontWeight: 600, letterSpacing: '0.18em', color: lang === 'es' ? 'var(--black)' : 'var(--gray-mid)', background: 'none', border: 'none', cursor: 'pointer', textTransform: 'uppercase' }}
+              className={`${s.langBtn} ${lang === 'es' ? s.langBtnActive : ''}`}
               onClick={() => lang !== 'es' && toggle()}
             >ES</button>
-            <span style={{ color: 'var(--gray-light)', fontSize: 10 }}>/</span>
+            <span className={s.langSep}>/</span>
             <button
-              style={{ fontFamily: 'var(--font)', fontSize: 10, fontWeight: 600, letterSpacing: '0.18em', color: lang === 'en' ? 'var(--black)' : 'var(--gray-mid)', background: 'none', border: 'none', cursor: 'pointer', textTransform: 'uppercase' }}
+              className={`${s.langBtn} ${lang === 'en' ? s.langBtnActive : ''}`}
               onClick={() => lang !== 'en' && toggle()}
             >EN</button>
           </div>
