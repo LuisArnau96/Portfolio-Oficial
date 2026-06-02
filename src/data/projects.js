@@ -26,6 +26,7 @@ export const projects = [
   {
     id: 'cactus',
     image: './projects/cactus.png',
+    thumbBg: '#f0f0f0',
     tags: ['uxui', 'challenge'],
     url: null,
   },

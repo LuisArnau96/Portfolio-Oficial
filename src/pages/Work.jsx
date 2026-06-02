@@ -104,7 +104,10 @@ export default function Work() {
                   </div>
                   <div className={s.projectRight}>
                     {project.image && (
-                      <div className={s.projectThumb}>
+                      <div
+                        className={s.projectThumb}
+                        style={project.thumbBg ? { background: project.thumbBg } : undefined}
+                      >
                         <img src={project.image} alt={info.title} />
                       </div>
                     )}
