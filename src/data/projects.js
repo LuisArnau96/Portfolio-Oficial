@@ -35,4 +35,11 @@ export const projects = [
     type: 'portfolio',
     url: null,
   },
+  {
+    id: 'portfolio',
+    image: './projects/portfolio.png',
+    tags: ['uxui'],
+    type: 'portfolio',
+    url: null,
+  },
 ]

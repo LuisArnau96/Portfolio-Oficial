@@ -55,5 +55,10 @@ export default {
       desc: 'Mapa interactivo 3D para navegación de estudio.',
       tags: ['UX/UI', '3D', 'Branding'],
     },
+    portfolio: {
+      title: 'Portfolio v2',
+      desc: 'Rediseño del portfolio personal con identidad editorial.',
+      tags: ['UX/UI', 'Diseño Visual'],
+    },
   },
 }

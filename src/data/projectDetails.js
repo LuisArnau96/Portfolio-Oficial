@@ -466,4 +466,97 @@ export const projectDetails = {
     gallery: [],
   },
 
+  portfolio: {
+    year: '2025',
+    role: { es: 'UX/UI Design · Diseño Visual · Implementación con IA', en: 'UX/UI Design · Visual Design · AI Implementation' },
+    subtitle: {
+      es: 'Rediseño completo del portfolio personal: de una plantilla estándar a una identidad editorial única',
+      en: 'Full personal portfolio redesign: from a standard template to a unique editorial identity',
+    },
+    context: {
+      es: 'El portfolio anterior (V8) seguía una estructura convencional: hero centrado, navbar horizontal, tipografía serif decorativa. Funcionaba, pero no se diferenciaba. En un mercado donde todos los portfolios de UX/UI se parecen, pasar desapercibido es el mayor error.',
+      en: 'The previous portfolio (V8) followed a conventional structure: centred hero, horizontal navbar, decorative serif typography. It worked, but it did not stand out. In a market where most UX/UI portfolios look the same, going unnoticed is the biggest mistake.',
+    },
+    problem: {
+      es: 'El portfolio no reflejaba la personalidad ni el criterio estético de Luis. La primera impresión era genérica y olvidable. Además, faltaban señales clave para recruiters: disponibilidad, forma de contacto directa y acceso al CV.',
+      en: 'The portfolio did not reflect Luis\'s personality or aesthetic sensibility. The first impression was generic and forgettable. It also lacked key signals for recruiters: availability status, direct contact, and CV access.',
+    },
+    objectives: {
+      es: [
+        'Crear una identidad visual diferenciadora, alejada de los portfolios de plantilla',
+        'Comunicar disponibilidad y contacto en el primer vistazo',
+        'Diseñar una experiencia de navegación fluida entre hero, trabajo y contacto',
+        'Integrar un CV descargable coherente con el estilo del portfolio',
+        'Construir una base técnica escalable para futuros proyectos',
+      ],
+      en: [
+        'Create a distinctive visual identity, far from template portfolios',
+        'Communicate availability and contact at a glance',
+        'Design a smooth navigation experience between hero, work and contact',
+        'Integrate a downloadable CV consistent with the portfolio style',
+        'Build a scalable technical foundation for future projects',
+      ],
+    },
+    roleText: {
+      es: 'Diseño UX/UI completo: moodboard, decisiones tipográficas, sistema de color, layout y componentes. La implementación técnica se realizó en colaboración con IA (Claude), actuando como director creativo que toma decisiones y valida resultados en tiempo real.',
+      en: 'Full UX/UI design: moodboard, typographic decisions, colour system, layout and components. Technical implementation was carried out in collaboration with AI (Claude), acting as creative director — making decisions and validating results in real time.',
+    },
+    process: {
+      es: [
+        'Auditoría del portfolio anterior (V8)',
+        'Definición de referencias visuales: cine, editorial, fotografía analógica',
+        'Decisión de identidad: vídeo hero + esquinas ancladas',
+        'Sistema de color: negro / off-white / verde disponibilidad',
+        'Tipografía: Geist sin-serif para rigor técnico',
+        'Diseño de página Work: lista con hover de reveal',
+        'Diseño de página de proyecto: estructura narrativa UX',
+        'Página CV: imprimible, bilingüe, coherente con el estilo',
+        'Iteración continua con feedback de recruiter en sesión real',
+      ],
+      en: [
+        'Audit of the previous portfolio (V8)',
+        'Visual references definition: cinema, editorial, analogue photography',
+        'Identity decision: video hero + corner-anchored UI',
+        'Colour system: black / off-white / availability green',
+        'Typography: Geist sans-serif for technical rigour',
+        'Work page design: list with hover reveal interaction',
+        'Project page design: UX narrative structure',
+        'CV page: printable, bilingual, style-consistent',
+        'Continuous iteration with recruiter feedback in a live session',
+      ],
+    },
+    result: {
+      es: 'Portfolio con identidad visual editorial y cinematográfica que se diferencia del 95% de los portfolios UX/UI. Hero con vídeo de fondo, sistema de navegación por esquinas, página de trabajo con interacciones de reveal, CV integrado imprimible y soporte bilingüe completo (ES/EN).',
+      en: 'Portfolio with an editorial, cinematic visual identity that stands out from 95% of UX/UI portfolios. Video background hero, corner-anchored navigation system, work page with reveal interactions, integrated printable CV, and full bilingual support (ES/EN).',
+    },
+    reflection: {
+      es: '"Diseñar tu propio portfolio es el proyecto más difícil: el cliente eres tú mismo, los requisitos son infinitos y nunca está terminado del todo. Pero es también el más honesto."',
+      en: '"Designing your own portfolio is the hardest project: the client is yourself, the requirements are endless, and it\'s never truly finished. But it\'s also the most honest one."',
+    },
+    prototype: null,
+    cover: './projects/portfolio-cover.png',
+    gallery: [
+      {
+        title: { es: 'Versión anterior (V8)', en: 'Previous version (V8)' },
+        desc: { es: 'Estructura convencional: hero centrado, serif decorativa, navegación horizontal estándar. Correcto pero genérico.', en: 'Conventional structure: centred hero, decorative serif, standard horizontal nav. Correct but generic.' },
+        image: './projects/portfolio-v1.png',
+      },
+      {
+        title: { es: 'Hero actual — identidad editorial', en: 'Current hero — editorial identity' },
+        desc: { es: 'Vídeo de fondo, tipografía anclada en esquinas, disponibilidad visible, acceso a CV y contacto en primer vistazo.', en: 'Video background, corner-anchored type, visible availability, CV and contact access at a glance.' },
+        image: './projects/portfolio-hero.png',
+      },
+      {
+        title: { es: 'Página de trabajo', en: 'Work page' },
+        desc: { es: 'Lista editorial con tipografía de gran tamaño. Thumbnails ocultos que aparecen en hover para no saturar la vista.', en: 'Editorial list with large-scale typography. Hidden thumbnails that reveal on hover to keep the view clean.' },
+        image: './projects/portfolio-work.png',
+      },
+      {
+        title: { es: 'Detalle de proyecto', en: 'Project detail' },
+        desc: { es: 'Estructura narrativa: contexto, problema, objetivos, proceso y resultado. Diseño limpio que pone el contenido en primer plano.', en: 'Narrative structure: context, problem, objectives, process and result. Clean design that foregrounds the content.' },
+        image: './projects/portfolio-detail.png',
+      },
+    ],
+  },
+
 }

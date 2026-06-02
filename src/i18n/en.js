@@ -55,5 +55,10 @@ export default {
       desc: '3D interactive map for studio navigation.',
       tags: ['UX/UI', '3D', 'Branding'],
     },
+    portfolio: {
+      title: 'Portfolio v2',
+      desc: 'Personal portfolio redesign with an editorial identity.',
+      tags: ['UX/UI', 'Visual Design'],
+    },
   },
 }
