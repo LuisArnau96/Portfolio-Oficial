@@ -49,10 +49,6 @@ export default function Contact() {
           {t('contact.heading')}
         </motion.h1>
 
-        <motion.div className={s.photoWrap} {...fade(0.18)}>
-          <img src="./foto-luis.jpg" alt="Luis Arnau" className={s.photo} />
-        </motion.div>
-
         <motion.p className={s.sub} {...fade(0.25)}>
           {t('contact.sub')}
         </motion.p>
