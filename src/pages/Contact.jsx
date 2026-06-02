@@ -66,9 +66,7 @@ export default function Contact() {
             {t('contact.linkedin')} →
           </a>
           <a
-            href="/cv-luis-arnau.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#/cv"
             className={s.contactLink}
           >
             {t('contact.cv')} ↓

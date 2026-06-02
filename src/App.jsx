@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Work from './pages/Work'
 import Contact from './pages/Contact'
 import ProjectDetail from './pages/ProjectDetail'
+import CV from './pages/CV'
 
 const pageTransition = {
   initial:  { opacity: 0 },
@@ -28,6 +29,7 @@ function AnimatedRoutes() {
           <Route path="/work"            element={<Work />} />
           <Route path="/contact"         element={<Contact />} />
           <Route path="/project/:id"     element={<ProjectDetail />} />
+          <Route path="/cv"              element={<CV />} />
         </Routes>
       </motion.div>
     </AnimatePresence>

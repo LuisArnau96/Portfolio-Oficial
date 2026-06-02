@@ -94,7 +94,7 @@ export default function Home() {
             EMAIL <span className={s.arrow}>→</span>
           </a>
           <span className={s.nameDot}>·</span>
-          <a href="/cv-luis-arnau.pdf" target="_blank" rel="noopener noreferrer" className={s.nameLink}>
+          <a href="#/cv" className={s.nameLink}>
             {t('hero.cv')} <span className={s.arrow}>↓</span>
           </a>
         </div>
