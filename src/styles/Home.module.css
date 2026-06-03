@@ -281,6 +281,13 @@
 .mobileOnly { display: none; }
 .desktopOnly { display: flex; }
 
+/* ---- Mobile lang toggle in BR ---- */
+.langToggleMobile {
+  display: none;
+  align-items: center;
+  gap: 8px;
+}
+
 /* ---- TR stacked block ---- */
 .trBlock {
   display: flex;
@@ -320,10 +327,12 @@
   .cvSep { display: none; }
   /* Show/hide mobile vs desktop elements */
   .mobileOnly { display: flex; }
-  .desktopOnly { display: none; }
-  /* Hide text links from BL on mobile */
-  .nameLinks { display: none; }
+  .langToggleMobile { display: flex; }
+  .desktopOnly { display: none !important; }
+  /* Hide centered lang toggle on mobile */
+  .langToggle { display: none; }
 }
+
 
 @media (max-width: 480px) {
   .tl { top: 20px; left: 16px; }

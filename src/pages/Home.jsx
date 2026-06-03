@@ -60,6 +60,9 @@ export default function Home() {
           <span className={s.availDot} />
           {t('hero.available')}
         </span>
+        {/* Mobile only: name + location grouped here */}
+        <span className={`${s.name} ${s.mobileOnly}`} style={{marginTop: '10px'}}>LUIS ARNAU</span>
+        <span className={`${s.nameSub} ${s.mobileOnly}`}>{t('hero.location')}</span>
       </motion.div>
 
       <motion.div className={`${s.tr} ${s.trBlock}`} {...fadeIn(0.2)}>
@@ -81,33 +84,22 @@ export default function Home() {
       </div>
 
       <motion.div className={`${s.bl} ${s.nameBlock}`} {...fadeIn(0.3)}>
-        <span className={s.name}>LUIS ARNAU</span>
-        <span className={s.nameSub}>{t('hero.location')}</span>
-        <div className={s.nameLinks}>
-          <a
-            href="https://www.linkedin.com/in/luis-arnau"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={s.nameLink}
-          >
+        {/* Desktop: name + location + text links */}
+        <span className={`${s.name} ${s.desktopOnly}`}>LUIS ARNAU</span>
+        <span className={`${s.nameSub} ${s.desktopOnly}`}>{t('hero.location')}</span>
+        <div className={`${s.nameLinks} ${s.desktopOnly}`}>
+          <a href="https://www.linkedin.com/in/luis-arnau" target="_blank" rel="noopener noreferrer" className={s.nameLink}>
             LINKEDIN <span className={s.arrow}>→</span>
           </a>
           <span className={s.nameDot}>·</span>
           <a href="mailto:luisarnau9@gmail.com" className={s.nameLink}>
             EMAIL <span className={s.arrow}>→</span>
           </a>
-          <span className={`${s.nameDot} ${s.cvSep}`}>·</span>
-          <a href="#/cv" className={`${s.nameLink} ${s.cvLink}`}>
+          <span className={s.nameDot}>·</span>
+          <a href="#/cv" className={s.nameLink}>
             {t('hero.cv')} <span className={s.arrow}>↓</span>
           </a>
         </div>
-      </motion.div>
-
-      <motion.div className={s.br} {...fadeIn(0.3)}>
-        {/* Desktop: CONTACTO text link */}
-        <Link to="/contact" className={`${s.navLink} ${s.desktopOnly}`}>
-          {t('nav.contact')} <span className={s.arrow}>→</span>
-        </Link>
         {/* Mobile: icon links */}
         <div className={`${s.iconLinks} ${s.mobileOnly}`}>
           <a href="https://www.linkedin.com/in/luis-arnau" target="_blank" rel="noopener noreferrer" className={s.iconLink} aria-label="LinkedIn">
@@ -119,6 +111,19 @@ export default function Home() {
           <a href="#/cv" className={s.iconLink} aria-label="CV">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
           </a>
+        </div>
+      </motion.div>
+
+      <motion.div className={s.br} {...fadeIn(0.3)}>
+        {/* Desktop: CONTACTO text link */}
+        <Link to="/contact" className={`${s.navLink} ${s.desktopOnly}`}>
+          {t('nav.contact')} <span className={s.arrow}>→</span>
+        </Link>
+        {/* Mobile: lang toggle */}
+        <div className={`${s.langToggleMobile} ${s.mobileOnly}`}>
+          <button className={`${s.langBtn} ${lang === 'es' ? s.langBtnActive : ''}`} onClick={() => lang !== 'es' && toggle()}>ES</button>
+          <span className={s.langSep}>/</span>
+          <button className={`${s.langBtn} ${lang === 'en' ? s.langBtnActive : ''}`} onClick={() => lang !== 'en' && toggle()}>EN</button>
         </div>
       </motion.div>
 
