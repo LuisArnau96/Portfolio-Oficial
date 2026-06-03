@@ -54,15 +54,23 @@ export default function Home() {
       <HeroMedia />
 
       <motion.div className={`${s.tl} ${s.role}`} {...fadeIn(0.2)}>
-        <span className={s.roleTitle}>{t('hero.role')}</span>
-        <span className={s.roleSkills}>{t('hero.skills')}</span>
-        <span className={s.availability}>
+        {/* Desktop layout */}
+        <span className={`${s.roleTitle} ${s.desktopOnly}`}>{t('hero.role')}</span>
+        <span className={`${s.roleSkills} ${s.desktopOnly}`}>{t('hero.skills')}</span>
+        <span className={`${s.availability} ${s.desktopOnly}`}>
           <span className={s.availDot} />
           {t('hero.available')}
         </span>
-        {/* Mobile only: name + location grouped here */}
-        <span className={`${s.name} ${s.mobileOnly} ${s.mobileNameGap}`}>LUIS ARNAU</span>
-        <span className={`${s.nameSub} ${s.mobileOnly}`}>{t('hero.location')}</span>
+
+        {/* Mobile layout: nombre primero, todo en cascada */}
+        <span className={`${s.name} ${s.mobileOnly}`}>LUIS ARNAU</span>
+        <span className={`${s.roleTitle} ${s.mobileOnly}`} style={{marginTop:'6px'}}>{t('hero.role')}</span>
+        <span className={`${s.mobileAvail} ${s.mobileOnly}`}>
+          <span className={s.availDot} />
+          {lang === 'es' ? 'Disponible' : 'Available'}
+        </span>
+        <span className={`${s.mobileAvailLine} ${s.mobileOnly}`}>{lang === 'es' ? 'Full-time · Remoto' : 'Full-time · Remote'}</span>
+        <span className={`${s.nameSub} ${s.mobileOnly}`} style={{marginTop:'4px'}}>{t('hero.location')}</span>
       </motion.div>
 
       <motion.div className={`${s.tr} ${s.trBlock}`} {...fadeIn(0.2)}>
