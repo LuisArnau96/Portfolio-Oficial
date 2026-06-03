@@ -62,9 +62,12 @@ export default function Home() {
         </span>
       </motion.div>
 
-      <motion.div className={s.tr} {...fadeIn(0.2)}>
+      <motion.div className={`${s.tr} ${s.trBlock}`} {...fadeIn(0.2)}>
         <Link to="/work" className={s.navLink}>
           {t('nav.work')} <span className={s.arrow}>→</span>
+        </Link>
+        <Link to="/contact" className={`${s.navLink} ${s.mobileOnly}`}>
+          {t('nav.contact')} <span className={s.arrow}>→</span>
         </Link>
       </motion.div>
 
@@ -101,9 +104,22 @@ export default function Home() {
       </motion.div>
 
       <motion.div className={s.br} {...fadeIn(0.3)}>
-        <Link to="/contact" className={s.navLink}>
+        {/* Desktop: CONTACTO text link */}
+        <Link to="/contact" className={`${s.navLink} ${s.desktopOnly}`}>
           {t('nav.contact')} <span className={s.arrow}>→</span>
         </Link>
+        {/* Mobile: icon links */}
+        <div className={`${s.iconLinks} ${s.mobileOnly}`}>
+          <a href="https://www.linkedin.com/in/luis-arnau" target="_blank" rel="noopener noreferrer" className={s.iconLink} aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:luisarnau9@gmail.com" className={s.iconLink} aria-label="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="#/cv" className={s.iconLink} aria-label="CV">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          </a>
+        </div>
       </motion.div>
 
       <motion.div className={s.langToggle} {...fadeIn(0.8)}>
