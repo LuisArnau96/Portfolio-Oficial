@@ -61,7 +61,7 @@ export default function Home() {
           {t('hero.available')}
         </span>
         {/* Mobile only: name + location grouped here */}
-        <span className={`${s.name} ${s.mobileOnly}`} style={{marginTop: '10px'}}>LUIS ARNAU</span>
+        <span className={`${s.name} ${s.mobileOnly} ${s.mobileNameGap}`}>LUIS ARNAU</span>
         <span className={`${s.nameSub} ${s.mobileOnly}`}>{t('hero.location')}</span>
       </motion.div>
 

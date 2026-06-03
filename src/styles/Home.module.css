@@ -281,6 +281,13 @@
 .mobileOnly { display: none; }
 .desktopOnly { display: flex; }
 
+/* ---- Mobile name spacing ---- */
+.mobileNameGap {
+  margin-top: 20px;
+  font-size: 13px !important;
+  letter-spacing: 0.26em !important;
+}
+
 /* ---- Mobile lang toggle in BR ---- */
 .langToggleMobile {
   display: none;
