@@ -281,28 +281,12 @@
 .mobileOnly { display: none; }
 .desktopOnly { display: flex; }
 
-/* ---- Mobile availability lines ---- */
-.mobileAvail {
+/* ---- Mobile role row (PRODUCT DESIGNER + dot) ---- */
+.mobileRole {
   display: none;
   align-items: center;
-  gap: 6px;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.16em;
-  color: rgba(248, 247, 244, 0.75);
-  text-transform: uppercase;
-  text-shadow: 0 1px 10px rgba(0,0,0,0.7);
-  margin-top: 6px;
-}
-
-.mobileAvailLine {
-  display: none;
-  font-size: 10px;
-  font-weight: 400;
-  letter-spacing: 0.16em;
-  color: rgba(248, 247, 244, 0.5);
-  text-transform: uppercase;
-  text-shadow: 0 1px 10px rgba(0,0,0,0.7);
+  gap: 8px;
+  margin-top: 5px;
 }
 
 /* ---- Mobile lang toggle in BR ---- */
@@ -351,9 +335,8 @@
   .cvSep { display: none; }
   /* Show/hide mobile vs desktop elements */
   .mobileOnly { display: flex; }
+  .mobileRole { display: flex; }
   .langToggleMobile { display: flex; }
-  .mobileAvail { display: flex; }
-  .mobileAvailLine { display: block; }
   .desktopOnly { display: none !important; }
   /* Hide centered lang toggle on mobile */
   .langToggle { display: none; }

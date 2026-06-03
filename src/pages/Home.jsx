@@ -62,15 +62,12 @@ export default function Home() {
           {t('hero.available')}
         </span>
 
-        {/* Mobile layout: nombre primero, todo en cascada */}
+        {/* Mobile layout: solo lo esencial */}
         <span className={`${s.name} ${s.mobileOnly}`}>LUIS ARNAU</span>
-        <span className={`${s.roleTitle} ${s.mobileOnly}`} style={{marginTop:'6px'}}>{t('hero.role')}</span>
-        <span className={`${s.mobileAvail} ${s.mobileOnly}`}>
+        <div className={`${s.mobileRole} ${s.mobileOnly}`}>
+          <span className={s.roleTitle}>{t('hero.role')}</span>
           <span className={s.availDot} />
-          {lang === 'es' ? 'Disponible' : 'Available'}
-        </span>
-        <span className={`${s.mobileAvailLine} ${s.mobileOnly}`}>{lang === 'es' ? 'Full-time · Remoto' : 'Full-time · Remote'}</span>
-        <span className={`${s.nameSub} ${s.mobileOnly}`} style={{marginTop:'4px'}}>{t('hero.location')}</span>
+        </div>
       </motion.div>
 
       <motion.div className={`${s.tr} ${s.trBlock}`} {...fadeIn(0.2)}>
