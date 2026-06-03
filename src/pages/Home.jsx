@@ -93,8 +93,8 @@ export default function Home() {
           <a href="mailto:luisarnau9@gmail.com" className={s.nameLink}>
             EMAIL <span className={s.arrow}>→</span>
           </a>
-          <span className={s.nameDot}>·</span>
-          <a href="#/cv" className={s.nameLink}>
+          <span className={`${s.nameDot} ${s.cvSep}`}>·</span>
+          <a href="#/cv" className={`${s.nameLink} ${s.cvLink}`}>
             {t('hero.cv')} <span className={s.arrow}>↓</span>
           </a>
         </div>

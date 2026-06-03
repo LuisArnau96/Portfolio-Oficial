@@ -287,6 +287,8 @@
   .tagline, .tagline2 { font-size: clamp(32px, 9vw, 52px); }
   .langToggle { bottom: 22px; }
   .roleSkills { display: none; }
+  .cvLink { display: none; }
+  .cvSep { display: none; }
 }
 
 @media (max-width: 480px) {
